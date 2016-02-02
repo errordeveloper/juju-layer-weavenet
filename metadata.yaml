@@ -3,6 +3,6 @@ description: Deploys weavenet - fill me out <3
 subordinate: true
 requires:
   dockerhost:
-    interface: weavenet
+    interface: juju-info
     scope: container
 
