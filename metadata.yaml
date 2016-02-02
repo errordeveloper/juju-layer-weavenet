@@ -1,0 +1,8 @@
+name: weavenet
+description: Deploys weavenet - fill me out <3
+subordinate: true
+requires:
+  dockerhost:
+    interface: weavenet
+    scope: container
+
