@@ -32,7 +32,7 @@ def declare_weave_leader():
     ''' Only the leader knows things, so send the leadership
         address to any follower nodes so they can join in the party. 
         wake me up before you go go go '''
-    leader_set('leader_address', unit_get('private-address'))
+    leader_set({'leader_address': unit_get('private-address')})
 
 @when('weavenet.installed')
 @when_not('weavenet.started')
